@@ -1,0 +1,30 @@
+.container{
+    background-color: #d9f4a5;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.calculator{
+    background-color: #A0D0EA;
+    width: 370px;
+    padding: 15px;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.display{
+    width: 97%;
+    height: 65px;
+    border: none;
+    box-shadow: 3px 3px 3px rgb(137, 136, 136);
+    font-size: 40px;
+    padding: 0 13.5px;
+}
+
+
